@@ -91,3 +91,13 @@ nav {
 .btn-consultar:hover {
   background-color: #1565c0;
 }
+.resultado {
+  background-color: #f8f9fa;
+  border-left: 4px solid #1e88e5;
+  padding: 1.2rem;
+}
+.mensagem-alerta {
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
