@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #f0f8ff;
+    color: #333333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding: 1.5rem;
+}
+header {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    gap: 0.6rem;
+    max-width: 100%;
+}
+
+.logo-Clima {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-clima:hover {
+    transform: scale(1.05);
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.4rem;
+}
+
+.menu li {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-size: 0.85rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.menu a:hover {
+    background-color: #1e88e5;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.menu a.ligado {
+    background-color: #1e88e5;
+    color: white;
+    font-weight: 600;
+}
+.consulte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #1e88e5;
+    color: white;
+    text-align: center;
+}
+
+.conteudo-consulte {
+    width: 100%;
+    max-width: 600px;
+}
+
+.conteudo-consulte h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.botao-consultar {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: #ffc107;
+    color: #333;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.botao-consultar:hover {
+    background-color: #ffca28;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.recursos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards-recursos {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.cards-recursos:hover {
+    transform: translateY(-5px);
+}
+
+.cards-recursos h3 {
+    color: #1e88e5;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.site-footer {
+    background-color: #f1c40f;
+    color: #ecf0f1;
+    padding: 3rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 0.95rem;
+    margin-top: auto;
+}
+
+.footer-section {
+    padding: 0 1rem;
+}
+
+.titlo-footer {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.titlo-footer::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #f1c40f;
+}
+
+.footer-contato {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-contato li {
+    margin-bottom: 0.8rem;
+    position: relative;
+    padding-left: 1.2rem;
+}
+
+.footer-contato li::before {
+    content: '•';
+    color: #f1c40f;
+    position: absolute;
+    left: 0;
+}
+
+.footer-contato a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-contato a:hover {
+    color: white;
+    padding-left: 5px;
+}
+
+.footer-botao {
+    text-align: center;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 1rem;
+}
+
+.footer-botao p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: black;
+}
+
+@media (min-width: 600px) {
+    .recursos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .header-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav {
+        width: auto;
+    }
+
+    .menu {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .menu li,
+    .menu a {
+        width: auto;
+    }
+
+    .consulte {
+        padding: 4rem;
+    }
+
+    .conteudo-consulte h2 {
+        font-size: 2rem;
+    }
+
+    .recursos {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .consulte {
+        padding: 1.5rem;
+    }
+
+    .conteudo-consulte h2 {
+        font-size: 1.4rem;
+    }
+
+    .logo-Clima {
+        width: 80px;
+    }
+
+    .menu {
+        gap: 0.3rem;
+    }
+
+    .menu a {
+        font-size: 0.8rem;
+    }
+}
