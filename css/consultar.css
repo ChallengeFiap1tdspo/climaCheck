@@ -118,3 +118,46 @@ nav {
   text-align: center;
   color: black;
 }
+@media (min-width: 768px) {
+    /* Menu */
+    .menu {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+ 
+    .menu li,
+    .menu a {
+        width: auto;
+    }
+ 
+    /* Formulário */
+    #consultaForm {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+ 
+@media (max-width: 767px) {
+    .consultar {
+        padding: 1rem;
+    }
+ 
+    .consultar h2 {
+        font-size: 1.3rem;
+    }
+ 
+    .logo-img {
+        width: 140px;
+    }
+ 
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}
+ 
+@media (max-width: 480px) {
+    .footer-contact a,
+    .footer-links a {
+        padding: 0.3rem 0;
+    }
+}
