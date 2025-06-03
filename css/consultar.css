@@ -60,3 +60,34 @@ nav {
   background-color: #1e88e5;
   color: white;
 }
+.consultar-container {
+  display: flex;
+  justify-content: center;
+}
+.consultar {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  max-width: 800px;
+}
+#consultaForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.form-group input,
+.form-group select {
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+.btn-consultar {
+  background-color: #1e88e5;
+  color: white;
+  padding: 0.9rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn-consultar:hover {
+  background-color: #1565c0;
+}
