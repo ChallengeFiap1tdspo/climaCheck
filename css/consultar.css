@@ -101,3 +101,20 @@ nav {
   font-size: 0.9rem;
   text-align: center;
 }
+.site-footer {
+  background-color: #f1c40f;
+  color: #ecf0f1;
+  padding: 3rem 2rem 1rem;
+  font-size: 0.95rem;
+}
+.footer-title {
+  color: white;
+  font-size: 1.2rem;
+}
+.footer-contact li {
+  margin-bottom: 0.8rem;
+}
+.footer-bottom {
+  text-align: center;
+  color: black;
+}
