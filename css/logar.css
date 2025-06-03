@@ -31,3 +31,37 @@ p {
   margin-bottom: 2rem;
   font-size: 1.1rem;
 }
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.botao {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.botao.login {
+  background-color: #005f99;
+  color: white;
+}
+
+.botao.login:hover {
+  background-color: #004477;
+}
+
+.botao.cadastro {
+  background-color: #ffcc00;
+  color: #005f99;
+}
+
+.botao.cadastro:hover {
+  background-color: #e6b800;
+}
