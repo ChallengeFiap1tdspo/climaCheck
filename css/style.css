@@ -84,3 +84,47 @@ nav {
     color: white;
     font-weight: 600;
 }
+.consulte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #1e88e5;
+    color: white;
+    text-align: center;
+}
+
+.conteudo-consulte {
+    width: 100%;
+    max-width: 600px;
+}
+
+.conteudo-consulte h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.botao-consultar {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: #ffc107;
+    color: #333;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.botao-consultar:hover {
+    background-color: #ffca28;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
