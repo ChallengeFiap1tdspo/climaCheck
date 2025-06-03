@@ -128,3 +128,29 @@ nav {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.recursos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards-recursos {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.cards-recursos:hover {
+    transform: translateY(-5px);
+}
+
+.cards-recursos h3 {
+    color: #1e88e5;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
