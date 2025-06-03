@@ -229,3 +229,65 @@ nav {
     font-size: 0.9rem;
     color: black;
 }
+
+@media (min-width: 600px) {
+    .recursos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .header-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav {
+        width: auto;
+    }
+
+    .menu {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .menu li,
+    .menu a {
+        width: auto;
+    }
+
+    .consulte {
+        padding: 4rem;
+    }
+
+    .conteudo-consulte h2 {
+        font-size: 2rem;
+    }
+
+    .recursos {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .consulte {
+        padding: 1.5rem;
+    }
+
+    .conteudo-consulte h2 {
+        font-size: 1.4rem;
+    }
+
+    .logo-Clima {
+        width: 80px;
+    }
+
+    .menu {
+        gap: 0.3rem;
+    }
+
+    .menu a {
+        font-size: 0.8rem;
+    }
+}
