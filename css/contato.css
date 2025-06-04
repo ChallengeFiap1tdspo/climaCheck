@@ -270,3 +270,10 @@ nav {
     background-color: #0d47a1;
     transform: translateY(-3px);
 }
+footer {
+    background-color: #ffc107;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: auto;
+}
