@@ -181,3 +181,37 @@ nav {
     gap: 1rem;
     flex-wrap: wrap;
 }
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.social-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    object-fit: contain;
+}
+
+.linkedin {
+    background-color: #0077b5;
+    color: white;
+}
+
+.github {
+    background-color: #333;
+    color: white;
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    opacity: 0.9;
+}
+
