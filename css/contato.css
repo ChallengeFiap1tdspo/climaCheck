@@ -277,3 +277,48 @@ footer {
     padding: 1.5rem;
     margin-top: auto;
 }
+@media (min-width: 768px) {
+    .menu {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .menu li,
+    .menu a {
+        width: auto;
+    }
+
+    .contato-forms {
+        flex-direction: row;
+    }
+
+    .form {
+        padding-right: 1.5rem;
+    }
+
+    .info-contato {
+        max-height: 290px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contato {
+        padding: 1rem;
+    }
+
+    .contato h2 {
+        font-size: 1.3rem;
+    }
+
+    .logo-Clima {
+        width: 140px;
+    }
+
+    .item p {
+        font-size: 0.8rem;
+    }
+
+    .contato-forms {
+        gap: 1rem;
+    }
+}
