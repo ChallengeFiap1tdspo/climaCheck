@@ -254,3 +254,45 @@ nav {
     font-size: 0.9rem;
     color: black;
 }
+@media (min-width: 768px) {
+    .menu {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .menu li, .menu a {
+        width: auto;
+    }
+
+    .faq-container {
+        padding: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 1rem;
+    }
+
+    .logo-img {
+        width: 140px;
+    }
+
+    .faq-container {
+        padding: 1.5rem;
+    }
+
+    .faq-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .faq-text {
+        font-size: 1rem;
+    }
+
+    .faq-icon {
+        width: 28px;
+        height: 28px;
+        font-size: 1rem;
+    }
+}
