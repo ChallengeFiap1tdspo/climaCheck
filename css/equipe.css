@@ -304,3 +304,58 @@ nav {
     font-size: 0.9rem;
     color: black;
 }
+/* Responsividade */
+@media (min-width: 768px) {
+    .menu {
+        flex-direction: row;
+        gap: 0.6rem;
+    }
+
+    .menu li {
+        width: auto;
+    }
+
+    .menu a {
+        width: auto;
+        padding: 0.4rem 0.7rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .team-title {
+        font-size: 2rem;
+    }
+
+    .team-subtitle {
+        font-size: 1rem;
+    }
+
+    .member-photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .social-link {
+        padding: 0.6rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .social-logo {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 1rem;
+    }
+
+    .team-section {
+        padding: 1rem;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
