@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 body {
     background-color: #f0f8ff;
     color: #333333;
@@ -11,12 +12,15 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    list-style: none;
 }
 
 main {
     flex: 1;
     padding: 1.5rem;
 }
+
+/* Header compacto */
 header {
     background-color: white;
     padding: 0.5rem 1rem;
@@ -28,16 +32,17 @@ header {
     max-width: 100%;
 }
 
-.logo-Clima {
+.logo-img {
     width: 100px;
     display: block;
     margin: 0 auto;
     transition: transform 0.3s ease;
 }
 
-.logo-clima:hover {
+.logo-img:hover {
     transform: scale(1.05);
 }
+
 nav {
     width: 100%;
     display: flex;
@@ -79,8 +84,84 @@ nav {
     transform: translateY(-2px);
 }
 
-.menu a.ligado {
+.menu a.ativo {
     background-color: #1e88e5;
     color: white;
     font-weight: 600;
+}
+.faq-container {
+    background-color: #ffc107;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.faq-container h1 {
+    color: #1e88e5;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #e3f2fd;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    gap: 1rem;
+}
+
+.faq-question:hover {
+    background-color: #d0e7fb;
+}
+
+.faq-text {
+    font-weight: 600;
+    color: #1e88e5;
+    font-size: 1.1rem;
+    flex: 1;
+}
+
+.faq-icon {
+    background-color: #1e88e5;
+    color: white;
+    font-weight: bold;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    transition: background-color 0.3s ease;
+}
+
+.faq-answer {
+    display: none;
+    padding: 1rem;
+    color: #555;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+.faq-item.active .faq-icon {
+    background-color: #1565c0;
 }
