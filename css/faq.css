@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 body {
     background-color: #f0f8ff;
     color: #333333;
@@ -12,7 +11,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    list-style: none;
 }
 
 main {
@@ -30,17 +28,16 @@ header {
     max-width: 100%;
 }
 
-.logo-img {
+.logo-Clima {
     width: 100px;
     display: block;
     margin: 0 auto;
     transition: transform 0.3s ease;
 }
 
-.logo-img:hover {
+.logo-clima:hover {
     transform: scale(1.05);
 }
-
 nav {
     width: 100%;
     display: flex;
@@ -87,4 +84,3 @@ nav {
     color: white;
     font-weight: 600;
 }
-
