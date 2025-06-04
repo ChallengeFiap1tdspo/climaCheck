@@ -19,3 +19,72 @@ main {
     padding: 1.5rem;
 }
 
+/* Header compacto */
+header {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    gap: 0.6rem;
+    max-width: 100%;
+}
+
+.logo-img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.4rem;
+}
+
+.menu li {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-size: 0.85rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.menu a:hover {
+    background-color: #1e88e5;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.menu a.ativo {
+    background-color: #1e88e5;
+    color: white;
+    font-weight: 600;
+}
