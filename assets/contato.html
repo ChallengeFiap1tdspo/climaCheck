@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="../img/logoClimaCheck.png" alt="Logo ClimaCheck" class="logo-Clima" />
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="../assets/logar.html">Consultar Clima</a></li>
+                    <li><a href="../assets/contato.html" class="ligado">Contato</a></li>
+                    <li><a href="../assets/faq.html">FAQ</a></li>
+                    <li><a href="../assets/equipe.html">Equipe</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="contato-container">
+        <div class="contato">
+            <h2>Entre em Contato Conosco</h2>
+            <p>Estamos aqui para responder suas dúvidas sobre alertas climáticos e nosso serviço de monitoramento por CEP.</p>
+
+            <div class="contato-forms">
+                <section class="form">
+                    <h3>Envie sua Mensagem</h3>
+                    <form id="contatoForm">
+                        <div class="info-form">
+                            <label for="name">Nome Completo:</label>
+                            <input type="text" id="name" name="name" required />
+                        </div>
+
+                        <div class="info-form">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required />
+                        </div>
+
+                        <div class="info-form">
+                            <label for="cep">CEP:</label>
+                            <input type="text" id="cep" name="cep" placeholder="Ex: 00000-000" />
+                            <small>Informe apenas números (8 dígitos)</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Assunto:</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Selecione...</option>
+                                <option value="duvida">Dúvida sobre serviços</option>
+                                <option value="alerta">Alertas climáticos</option>
+                                <option value="sugestao">Sugestão</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensagem:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                    </form>
+                </section>
+                <section class="info-contato">
+                    <h3>Informações de Contato</h3>
+
+                    <div class="item">
+                        <h4>Endereço</h4>
+                        <p>Atualmete não temos Endereço fisíco</p>
+                    </div>
+
+                    <div class="item">
+                        <h4>📞Telefone</h4>
+                        <p>(11) 99999-9999 (WhatsApp)</p>
+                    </div>
+
+                    <div class="item">
+                        <h4>✉️E-mail</h4>
+                        <p>contato@climacheck.com.br</p>
+                    </div>
+
+                    <div class="item">
+                        <h4>⏱️Horário de Funcionamento</h4>
+                        <p>Segunda á Domingo 24h</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 ClimaCheck. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
