@@ -8,5 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return regex.test(email);
 }
+form.addEventListener("submit", function (e) {
+  e.preventDefault(); 
+});
 
 });
