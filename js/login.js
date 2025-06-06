@@ -4,4 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const passwordInput = document.getElementById("loginPassword");
   const emailError = document.getElementById("loginEmailError");
   const passwordError = document.getElementById("loginPasswordError");
+  function validateEmail(email) {
+  const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return regex.test(email);
+}
+
 });
