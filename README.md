@@ -13,12 +13,12 @@ Este projeto foi construído com tecnologias básicas e pode ser executado diret
 
 ## 🔗 Clone o repositório
 
-```bash
+
 git clone https://github.com/ChallengeFiap1tdspo/climaCheck.git
 
 ## 🔗 Veja o nosso site em:
 
-''' https://challengefiap1tdspo.github.io/ChallengeFrontEnd/
+https://challengefiap1tdspo.github.io/ChallengeFrontEnd/
 
 Pré-requisitos
 Navegador de internet atualizado (Google Chrome, Mozilla Firefox, Microsoft Edge, etc.)
@@ -33,7 +33,7 @@ CSS – Estilização e responsividade
 JavaScript – Funcionalidades interativas
 
 
-'''
+
 climaCheck/
 ├── index.html              # Página inicial
 ├── assets/
@@ -61,7 +61,7 @@ climaCheck/
 ├── img/                    # Imagens e ícones
 └── README.md               # Documentação do projeto
 
-'''
+
 ⚙️ Testes
 O site foi testado manualmente nos seguintes navegadores:
 
