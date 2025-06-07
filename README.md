@@ -61,7 +61,7 @@ climaCheck/
 ├── img/                    # Imagens e ícones
 └── README.md               # Documentação do projeto
 
-
+'''
 ⚙️ Testes
 O site foi testado manualmente nos seguintes navegadores:
 
