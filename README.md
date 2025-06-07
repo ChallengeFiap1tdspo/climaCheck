@@ -33,51 +33,18 @@ CSS – Estilização e responsividade
 JavaScript – Funcionalidades interativas
 
 
-'''
-climaCheck/
-├── index.html              # Página inicial
-├── assets/
-│   ├── cadastro.html       # Página de cadastro
-│   ├── contato.html        # Página de contato
-│   ├── consultar.html      # Página princiapl para consultar clima                     
-│   ├── equipe.html         # Sobre os desenvolvedores
-│   ├── faq.html            # Perguntas frequentes
-│   ├── logar.html          # Página de login
-│   └── login.html          # Validação de entrada
-├── css/
-│   ├── consultar.css
-│   ├── contato.css 
-│   ├── equipe.css
-│   ├── faq.css
-│   ├── forms.css
-│   ├── logar.css
-│   └── style.css
-├── js/
-│   ├── cadastro.js
-│   ├── consultar.js
-│   ├── contato.js
-│   ├── faq.js
-│   └── login.js
-├── img/                    # Imagens e ícones
-└── README.md               # Documentação do projeto
-'''
+ ```bash climaCheck/ ├── index.html # Página inicial ├── assets/ │ ├── cadastro.html # Página de cadastro │ ├── contato.html # Página de contato │ ├── consultar.html # Página principal para consultar clima │ ├── equipe.html # Sobre os desenvolvedores │ ├── faq.html # Perguntas frequentes │ ├── logar.html # Página de login │ └── login.html # Validação de entrada ├── css/ │ ├── consultar.css │ ├── contato.css │ ├── equipe.css │ ├── faq.css │ ├── forms.css │ ├── logar.css │ └── style.css ├── js/ │ ├── cadastro.js │ ├── consultar.js │ ├── contato.js │ ├── faq.js │ └── login.js ├── img/ # Imagens e ícones └── README.md # Documentação do projeto ```
 
 
-⚙️ Testes
+**Testes**
 O site foi testado manualmente nos seguintes navegadores:
-
-Google Chrome (desktop e mobile)
-
+Google Chrome
 Mozilla Firefox
-
 Microsoft Edge
 
 
 **Autores**
 Projeto desenvolvido por:
-
 Emanuel Italo – Desenvolvimento geral
-
 Alef Rodrigues – Desenvolvimento geral
-
 Paulo Estalise – Desenvolvimento geral
