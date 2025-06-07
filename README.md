@@ -9,6 +9,7 @@ A proposta é oferecer uma experiência didática, acessível e intuitiva, promo
 
 Este projeto foi construído com tecnologias básicas e pode ser executado diretamente em qualquer navegador moderno. Nenhuma instalação de dependências é necessária.
 ---
+'''
 🛠️ Feito com:
 HTML – Estrutura das páginas
 CSS – Estilização e responsividade
