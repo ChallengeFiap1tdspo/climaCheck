@@ -33,7 +33,7 @@ CSS – Estilização e responsividade
 JavaScript – Funcionalidades interativas
 
 
-
+'''
 climaCheck/
 ├── index.html              # Página inicial
 ├── assets/
