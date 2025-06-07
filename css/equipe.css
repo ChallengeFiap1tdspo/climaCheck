@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    list-style: none;
 }
 
 main {
@@ -83,11 +84,19 @@ nav {
     transform: translateY(-2px);
 }
 
-.menu a.ativo {
+.menu a.ligado {
     background-color: #1e88e5;
     color: white;
     font-weight: 600;
 }
+.faq-container {
+    background-color: #ffc107;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
 /* Estilos da página de integrantes */
 .team-section {
     max-width: 1200px;
