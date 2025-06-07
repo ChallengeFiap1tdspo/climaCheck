@@ -27,13 +27,39 @@ Conexão com a internet para carregar o site (ou abrir localmente os arquivos .h
 
 🛠️ Feito com
 HTML – Estrutura das páginas
-
 CSS – Estilização e responsividade
-
 JavaScript – Funcionalidades interativas
 
+## 🗂️ Estrutura de Pastas
 
- ```bash climaCheck/ ├── index.html # Página inicial ├── assets/ │ ├── cadastro.html # Página de cadastro │ ├── contato.html # Página de contato │ ├── consultar.html # Página principal para consultar clima │ ├── equipe.html # Sobre os desenvolvedores │ ├── faq.html # Perguntas frequentes │ ├── logar.html # Página de login │ └── login.html # Validação de entrada ├── css/ │ ├── consultar.css │ ├── contato.css │ ├── equipe.css │ ├── faq.css │ ├── forms.css │ ├── logar.css │ └── style.css ├── js/ │ ├── cadastro.js │ ├── consultar.js │ ├── contato.js │ ├── faq.js │ └── login.js ├── img/ # Imagens e ícones └── README.md # Documentação do projeto ```
+```
+climaCheck/
+├── index.html              # Página inicial
+├── assets/
+│   ├── cadastro.html       # Página de cadastro
+│   ├── contato.html        # Página de contato
+│   ├── consultar.html      # Página principal para consultar clima                     
+│   ├── equipe.html         # Sobre os desenvolvedores
+│   ├── faq.html            # Perguntas frequentes
+│   ├── logar.html          # Página de login
+│   └── login.html          # Validação de entrada
+├── css/
+│   ├── consultar.css
+│   ├── contato.css 
+│   ├── equipe.css
+│   ├── faq.css
+│   ├── forms.css
+│   ├── logar.css
+│   └── style.css
+├── js/
+│   ├── cadastro.js
+│   ├── consultar.js
+│   ├── contato.js
+│   ├── faq.js
+│   └── login.js
+├── img/                    # Imagens e ícones
+└── README.md               # Documentação do projeto
+
 
 
 **Testes**
