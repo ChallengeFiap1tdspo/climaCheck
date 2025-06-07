@@ -60,6 +60,7 @@ climaCheck/
 │   └── login.js
 ├── img/                    # Imagens e ícones
 └── README.md               # Documentação do projeto
+'''
 
 
 ⚙️ Testes
