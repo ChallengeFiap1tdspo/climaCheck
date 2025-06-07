@@ -9,8 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
     e.preventDefault();
 
     let isValid = true;
+
+
     emailError.textContent = "";
+    emailError.style.display = "none";
     passwordError.textContent = "";
+    passwordError.style.display = "none";
 
     const emailValue = emailInput.value.trim();
     const passwordValue = passwordInput.value.trim();
@@ -18,23 +22,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (!validateEmail(emailValue)) {
       emailError.textContent = "Digite um e-mail válido.";
+      emailError.style.display = "block";
       isValid = false;
     }
 
-
     if (passwordValue.length < 6) {
       passwordError.textContent = "A senha deve ter pelo menos 6 caracteres.";
+      passwordError.style.display = "block";
       isValid = false;
     }
 
     if (isValid) {
       alert("Login realizado com sucesso!");
-      form.submit(); 
+      form.submit();
     }
   });
 
   function validateEmail(email) {
- 
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
   }

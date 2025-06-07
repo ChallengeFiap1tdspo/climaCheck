@@ -15,10 +15,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let isValid = true;
 
+    // Resetando mensagens e escondendo erros
     nameError.textContent = "";
+    nameError.style.display = "none";
     emailError.textContent = "";
+    emailError.style.display = "none";
     passwordError.textContent = "";
+    passwordError.style.display = "none";
     confirmPasswordError.textContent = "";
+    confirmPasswordError.style.display = "none";
 
     const nameValue = nameInput.value.trim();
     const emailValue = emailInput.value.trim();
@@ -27,21 +32,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (nameValue.length < 3) {
       nameError.textContent = "O nome deve ter pelo menos 3 caracteres.";
+      nameError.style.display = "block";
       isValid = false;
     }
 
     if (!validateEmail(emailValue)) {
       emailError.textContent = "Digite um e-mail válido.";
+      emailError.style.display = "block";
       isValid = false;
     }
 
     if (passwordValue.length < 6) {
       passwordError.textContent = "A senha deve ter pelo menos 6 caracteres.";
+      passwordError.style.display = "block";
       isValid = false;
     }
 
     if (passwordValue !== confirmPasswordValue) {
       confirmPasswordError.textContent = "As senhas não coincidem.";
+      confirmPasswordError.style.display = "block";
       isValid = false;
     }
 
@@ -50,9 +59,9 @@ document.addEventListener("DOMContentLoaded", function () {
       form.submit();
     }
   });
-});
 
-function validateEmail(email) {
-  const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return regex.test(email);
-}
+  function validateEmail(email) {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  }
+});
